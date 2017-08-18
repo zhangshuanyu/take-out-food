@@ -1,6 +1,5 @@
 const loadAllItems = require("../src/items.js");
 const loadPromotions = require("../src/promotions.js");
-
 module.exports = function bestCharge(inputs) {
   var allItems = loadAllItems();
   var discount = loadPromotions();
